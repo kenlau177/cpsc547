@@ -13,7 +13,7 @@ source("deriveHam.R")
 source("plotMDS.R")
 source("plotPartialDependence.R")
 
-urlTrain = "https://raw.githubusercontent.com/kenlau177/cpsc547/master/Data/datTrn_small.txt"
+urlTrain = "https://raw.githubusercontent.com/kenlau177/cpsc547/tree/master/Data/datTrn_small.txt"
 trainDat <- read.delim(file = urlTrain, sep=",")
 trainDat$cl = factor(trainDat$cl)
 row.names(trainDat) = 1:nrow(trainDat)
