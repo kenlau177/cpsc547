@@ -2,7 +2,7 @@
 library(randomForest)
 library(plyr)
 
-urlTrain = "https://raw.githubusercontent.com/kenlau177/cpsc547/master/Data/datTrn_small.txt"
+urlTrain = "Data//datTrn_small.txt"
 trainDat <- read.delim(file = urlTrain, sep=",")
 #urlTest = "https://raw.githubusercontent.com/kenlau177/cpsc547/master/Data/datTest_small.txt"
 #testDat <- read.delim(file = urlTest, sep=",")
